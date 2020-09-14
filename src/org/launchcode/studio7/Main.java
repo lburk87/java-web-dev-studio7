@@ -10,8 +10,8 @@ public class Main {
 
 
         // TODO: Call each CD and DVD method to verify that they work as expected.
-        OpticalDisc.spinDisc(hamiltonCd);
-        OpticalDisc.spinDisc(hamiltonDvd);
+        hamiltonCd.displayInfo();
+        hamiltonDvd.displayInfo();
 
     }
 }

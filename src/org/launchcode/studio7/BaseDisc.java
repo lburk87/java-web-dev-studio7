@@ -44,4 +44,7 @@ public class BaseDisc {
     public void setSpinRate(int spinRate) {
         this.spinRate = spinRate;
     }
-}
+
+        public void displayInfo() {
+            System.out.println("Format: "+this.discType+" | Title: "+this.name+" | GB: "+this.capacity+" | RPM: "+this.spinRate);    }
+    }
