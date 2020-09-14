@@ -1,9 +1,16 @@
 package org.launchcode.studio7;
 
 public class CD extends BaseDisc implements OpticalDisc {
+
     public CD(String name, double capacity, String discType, int spinRate) {
         super(name, capacity, discType, spinRate);
     }
+
+    @Override
+    public void spinDisc() {
+        System.out.println("\nCD spinning... "+this.getSpinRate()+" rpm.");
+    }
+
 
     // TODO: Implement your custom interface.
 

@@ -1,6 +1,7 @@
 package org.launchcode.studio7;
 
-public class BaseDisc {
+public abstract class BaseDisc {
+
     private String name;
     private double capacity;
     private String discType;
@@ -45,6 +46,8 @@ public class BaseDisc {
         this.spinRate = spinRate;
     }
 
-        public void displayInfo() {
-            System.out.println("Format: "+this.discType+" | Title: "+this.name+" | GB: "+this.capacity+" | RPM: "+this.spinRate);    }
+    public void displayInfo() {
+        System.out.println("\nFormat: " + this.discType + " | Title: " + this.name + " | GB: " + this.capacity + " | RPM: " + this.spinRate);
     }
+
+}

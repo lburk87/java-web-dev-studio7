@@ -12,6 +12,7 @@ public class Main {
         // TODO: Call each CD and DVD method to verify that they work as expected.
         hamiltonCd.displayInfo();
         hamiltonDvd.displayInfo();
+        hamiltonDvd.spinDisc();
 
     }
 }
