@@ -6,23 +6,11 @@ public class BaseDisc {
     private String discType;
     private int spinRate;
 
-    public int getSpins() {
-        return spins;
-    }
-
-    public void setSpins(int spins) {
-        this.spins = spins;
-    }
-
-    private int spins;
-
-
     public BaseDisc(String name, double capacity, String discType, int spinRate) {
         this.name = name;
         this.capacity = capacity;
         this.discType = discType;
         this.spinRate = spinRate;
-        this.spins = 0;
     }
 
     public String getName() {
